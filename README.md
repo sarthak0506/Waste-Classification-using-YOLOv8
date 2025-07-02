@@ -14,18 +14,29 @@ Simple and intuitive Streamlit UI
 # Project Structure
 
 waste-yolov8/
-│
+
 ├── waste_YOLOv8.ipynb        # Jupyter notebook for model training or testing
+
 ├── helper.py                 # Main logic for video streaming, detection, and display
+
 ├── settings.py               # Configuration file for paths and options
+
 ├── weights/
+
 │   └── yoloooo.pt            # Trained YOLOv8 model (path used in code)
+
 ├── videos/
+
 │   ├── video_1.mp4           # Sample videos
+
 │   └── ...
+
 ├── images/
+
 │   ├── def.jfif              # Default image
+
 │   └── def1.jpg
+
 └── README.md                 # This file
 
 
