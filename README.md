@@ -43,12 +43,13 @@ venv\Scripts\activate       # For Windows
 pip install -r requirements.txt
 
 # Create requirements.txt with the following (at minimum):
-streamlit
-opencv-python
-ultralytics
-pafy
-youtube-dl
+streamlit,
+opencv-python,
+ultralytics,
+pafy,
+youtube-dl,
 
 # Run the Application
 streamlit run helper.py
+
 Make sure the model weights and sample videos/images are correctly placed as per the paths in settings.py.
